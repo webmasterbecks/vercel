@@ -167,10 +167,12 @@
     universal-analytics "^0.4.20"
     uuid "^3.3.2"
 
-"@angular/common@~9.0.0-rc.7":
-  version "9.0.0-rc.8"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-9.0.0-rc.8.tgz#3f02562dda586f2dd11eee57073739f23b665dce"
-  integrity sha512-RxDx4n9L98/M1cvm56/7dAe4mA2Pv/sJk+679DtL+yev8HS1jBoMting8iBp86Qco2vKTVq6GcdoooYYqnrRkg==
+"@angular/common@~20.3.25":
+  version "20.3.25"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-20.3.25.tgz#0f2bd058ec6595cfb4dd6a05601c41cb5cf3cb23"
+  integrity sha512-rnRGcXbjet0DHgkRL4Dqxk21G2T4UypVfiTV/fay58H8w9U89PJ1L6gRmk8B/uyfpii/9r23cBwnpcguQykxYw==
+  dependencies:
+    tslib "^2.3.0"
 
 "@angular/compiler-cli@~9.0.0-rc.7":
   version "9.0.0-rc.8"
@@ -188,15 +190,19 @@
     source-map "^0.6.1"
     yargs "13.1.0"
 
-"@angular/compiler@~9.0.0-rc.7":
-  version "9.0.0-rc.8"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-9.0.0-rc.8.tgz#018747e21a057ac8a713ace14a6286c01f6e0e4d"
-  integrity sha512-oCRp6R5P9HZe6iLuyZVjrsEtRH4DFDI7lICy14Dqf65hV+L3s/QLaGz44K+PYV+V8xYeh5PtACpt9RZg5GvnqQ==
+"@angular/compiler@~20.3.25":
+  version "20.3.25"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-20.3.25.tgz#674d07b2437e9a3c99e9bb1c10e4d13bbedb4086"
+  integrity sha512-TSh6gVoQqlLPqWwsYMK0lfVEQYENQO+USzS+BHFXEHFfgBRap6qDpIUGnRdj0Y2PlaVJUVFbeq1855EZUPUEoA==
+  dependencies:
+    tslib "^2.3.0"
 
-"@angular/core@~9.0.0-rc.7":
-  version "9.0.0-rc.8"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-9.0.0-rc.8.tgz#244be4fb488945fd743c973564bcd2b16837f881"
-  integrity sha512-u8VMfh/WIr6FZnzFDEpEiOuxgDTiXIgQwH2N7UPrtVDGHiIdtrPA6pRg7I1eqmFFKOqY3a6c7XFNDaYA7H3AWw==
+"@angular/core@~20.3.25":
+  version "20.3.25"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-20.3.25.tgz#4418a9625a8a152029b49158dbda01f1c83d19c0"
+  integrity sha512-B4XnnR5jzikZDvZ4PjwjAWZMT14dxrKrmJdwa/n0yp7rMPkIJTKF6ZJMg4d1pLWLLSsc2oWHioN3UrWlGqIKnA==
+  dependencies:
+    tslib "^2.3.0"
 
 "@angular/forms@~9.0.0-rc.7":
   version "9.0.0-rc.8"
@@ -7939,6 +7945,11 @@ tslib@1.10.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
+
+tslib@^2.3.0:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tslint@~5.18.0:
   version "5.18.0"
